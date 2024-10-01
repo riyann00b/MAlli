@@ -1,71 +1,118 @@
-# Appwrite Hacktoberfest '24 Hackathon
+# MAlli: AI-powered Personal Finance Manager
 
-## Table Of Contents
+## Overview
 
-- [Timeline](#timeline)
-- [Prizes](#prizes)
-- [How To Submit Your Project?](#how-to-submit-your-project)
-- [Rules and Code of Conduct](#rules-and-code-of-conduct)
-- [FAQ](#faq)
+This AI-powered Personal Finance Manager is a Vue.js-based web application that helps users track expenses, manage budgets, and gain insights into their financial habits. Built with Vue.js and Appwrite, it leverages AI to provide intelligent categorization and personalized financial advice.
 
-## Timeline
+## Features
 
-* **Start Date and Time:** Oct 1st, 2024 at 12:00 AM PT
-* **End Date and Time:** Oct 31st, 2024 at 11:59 PM PT
+- User authentication and profile management
+- Expense tracking with AI-powered categorization
+- Income logging and tracking
+- Budget setting and monitoring
+- Financial insights and analytics dashboard
+- AI-powered chatbot for financial queries
+- Receipt scanning and automatic expense entry
+- Goal setting and tracking
+- Notifications and alerts for budget limits and unusual spending
 
-## Prizes
+## Tech Stack
 
-- **1st Prize**
-  - Appwriter keyboards
+- Frontend: Vue.js 3
+- Backend: Appwrite
+- AI Services: [Specify your chosen AI service, e.g., OpenAI]
+- Additional libraries:
+  - vue-chartjs for data visualization
+  - Vuex for state management
+  - Vue Router for navigation
 
-- **2nd and 3rd Prize**
+## Prerequisites
 
-  - Appwrite swag (hoodies and stickers)
+- Node.js (v14 or later)
+- npm or yarn
+- Appwrite Cloud account or self-hosted Appwrite instance
 
-- **1 Random winner** (selected from all submissions)
+## Setup
 
-  - Appwrite swag (hoodies and stickers)
+1. Clone the repository:
+   ```
+   git clone https://github.com/your-username/ai-finance-manager.git
+   cd ai-finance-manager
+   ```
 
-## How To Submit Your Project?
+2. Install dependencies:
+   ```
+   npm install
+   ```
 
-Follow the steps to submit your project in the hackathon:
+3. Create a `.env` file in the root directory and add your Appwrite and AI service credentials:
+   ```
+   VUE_APP_APPWRITE_ENDPOINT=https://cloud.appwrite.io/v1
+   VUE_APP_APPWRITE_PROJECT_ID=your-project-id
+   VUE_APP_AI_SERVICE_KEY=your-ai-service-key
+   ```
 
-### Step 1: Sign up
+4. Start the development server:
+   ```
+   npm run serve
+   ```
 
-- [Register](https://hacktoberfest.com/) for Hacktoberfest.
+5. Open your browser and navigate to `http://localhost:8080`
 
-- [Sign up](https://apwr.dev/htf24-hackathon) for the Hackathon (this must be done by all your team members).
+## Deployment
 
-### Step 2: Add project submission to this repo
+1. Build the project:
+   ```
+   npm run build
+   ```
 
-- Create a new branch/fork with the same name as your project title.
+2. Deploy the contents of the `dist` folder to your preferred hosting service (e.g., Netlify, Vercel, or GitHub Pages).
 
-- Visit the `submissions/` directory and create a copy of the `template_submission.md` with the same filename as your project title.
+## Contributing
 
-- Enter all the necessary details as per the template.
+Contributions are welcome! Please feel free to submit a Pull Request.
 
-- Create a pull request.
+## License
 
-## Rules and Code of Conduct
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-All participants must agree to the [Rules](RULES.md) and [Code of Conduct](CODE_OF_CONDUCT.md) to participate in the Hackathon.
+## Acknowledgements
 
-## FAQ
+- [Appwrite](https://appwrite.io/) for backend services
+- [Vue.js](https://vuejs.org/) for the frontend framework
+- [OpenAI](https://openai.com/) (or your chosen AI service) for AI capabilities
 
-1. What is the maximum team size?
-    - 1 - 4 people
+## Contact
 
-2. Is it mandatory for all hackers to register on the [Hackathon Sign Up page](https://apwr.dev/htf24-hackathon)?
-    - Yes, this is mandatory for all hackers, even if you are a part of a team. Any participants who make submissions without registering will be disqualified from the final prizes.
+Your Name - your.email@example.com
 
-3. Do I have to use any specific Appwrite product during the hackathon?
-    - You can use any Appwrite product that you like. However, it is mandatory to use Appwrite Cloud for the hackathon. You can grab some Cloud credits for the hackathon by clicking [here](https://apwr.dev/hacktoberfest).
+Project Link: https://github.com/your-username/ai-finance-manager
 
-4. Does everyone on a winning team receive a prize?
-    - If there is more than one member on a winning team, each member will receive the specified prize.
 
-5. Are there any specific themes than a project must fit within?
-    - No, there are not any specified themes. Hackers are free to build on whatever idea they like.
+This README provides a solid starting point for your GitHub repository. It includes:
 
-6. Who should I reach out to in case I need help building with Appwrite?
-    - You can ask for help from the Appwrite team and our community of developers in our [Discord server](https://appwrite.io/discord).
+1. A brief overview of the project
+2. Key features
+3. The tech stack used
+4. Prerequisites for development
+5. Setup instructions
+6. Deployment guidelines
+7. Sections for contributing, license, acknowledgements, and contact information
+
+To use this README:
+
+1. Save it as `README.md` in the root directory of your GitHub repository.
+2. Replace placeholder information (like "your-username", "your-project-id", etc.) with your actual project details.
+3. As you develop your project, keep this README updated with any changes to setup instructions, new features, or additional acknowledgements.
+
+Remember to also create the following files in your repository:
+
+1. `.gitignore` - to specify which files Git should ignore
+2. `LICENSE` - to specify the terms under which your project can be used (you mentioned MIT License in the README)
+
+As your project grows, you might want to add more sections to the README, such as:
+
+- A more detailed usage guide
+- API documentation
+- Troubleshooting section
+- Screenshots or GIFs demonstrating the app's functionality
